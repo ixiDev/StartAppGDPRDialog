@@ -34,10 +34,9 @@
         android:layout_alignParentRight="true"
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
-        android:background="@drawable/rounded_button"
         android:padding="15dp"
         android:text="@string/gdpr_okBtn"
-        android:textColor="@android:color/white"
+        android:textColor="#fff"
         android:textSize="20sp" />
 
     <TextView

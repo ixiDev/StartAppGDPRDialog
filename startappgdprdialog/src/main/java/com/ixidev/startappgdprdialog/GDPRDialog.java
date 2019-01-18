@@ -36,7 +36,8 @@ public class GDPRDialog {
 
     public static void showGdprDialog(final Runnable callback, final Activity main,
                                       final GDPRCallback mlistener) {
-        final View view = main.getLayoutInflater().inflate(R.layout.dialog_gdpr, null);
+        final View view = main.getLayoutInflater()
+                .inflate(R.layout.dialog_gdpr, null);
         final Dialog dialog = new Dialog(main, android.R.style.Theme_Light_NoTitleBar);
         dialog.setContentView(view);
         final Button okBtn = view.findViewById(R.id.okBtn);
